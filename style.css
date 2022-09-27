@@ -57,8 +57,8 @@ header nav{
   padding: 1.5rem;
   position: absolute;
   top: 3rem;
-  right: 0;
-  width: 95%;
+  right: 1rem;
+  width: 90%;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -74,8 +74,8 @@ header nav{
   color: black;
   background-color: var(--yellow);
   border-radius: 4rem;
-  padding: 1rem;
-  width: 30%;
+  padding: 4%;
+  width: 40%;
   margin: auto;
   text-align: center;
 }
@@ -110,7 +110,7 @@ section {
   flex-shrink: 0;
   width: 100%;
   height: auto;
-  max-height: 300px;
+  max-height: 100%;
 }
 
 
@@ -122,22 +122,26 @@ section {
   padding: 2.5rem 1.5rem;  
   margin: auto;
 }
-.sec-info h2, .sec-info h4{
+.sec-info h2, .sec-info button{
   font-family: 'Fraunces', serif;
   font-weight: 900;
   color: black; 
 }
-.sec-info h4{
-  width: 50%;
-  padding-left: 5px;
+.sec-info button{
+  margin: auto;
+  background-color: var(--white);
+  padding: 0 5px;
+  border: none;
+  outline: none;
   border-bottom: 0.5rem solid var(--yellow);
   opacity: 0.7;
 }
-.sec-info h4:hover{
+
+.sec-info button:hover{
   opacity: 1;
   cursor: pointer;
 }
-.sec3-info h4{
+.sec3-info button{
   border-bottom: 0.5rem solid var(--red);  
 }
 .sec-info p{
@@ -316,9 +320,6 @@ footer ul li:hover, .social-media img:hover{
     padding-right: 2rem; 
     text-align: left;
   }
-  .sec-info h4{
-    width: 50%;
-  }
   .section5{
     flex-direction: column;
   }
@@ -365,4 +366,5 @@ footer ul li:hover, .social-media img:hover{
   header .creatives{
     top: 9rem;
   }
+  
 }
