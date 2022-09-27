@@ -96,6 +96,8 @@ header .creatives{
 section {
   display: flex;
   flex-direction: column;
+  border: none;
+  margin: 0;
 }
 .sec-img{
   display: flex;
