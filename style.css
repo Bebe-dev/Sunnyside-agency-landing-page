@@ -126,13 +126,17 @@ section {
   color: black; 
 }
 .sec-info h4{
-  width: 34%;
-  padding: 0 2px;
-  margin: auto;
-  box-shadow: 0px 4px 7px -3px var(--yellow);
+  width: 50%;
+  padding-left: 5px;
+  border-bottom: 0.5rem solid var(--yellow);
+  opacity: 0.7;
+}
+.sec-info h4:hover{
+  opacity: 1;
+  cursor: pointer;
 }
 .sec3-info h4{
-  box-shadow: 0px 4px 7px -3px var(--red);
+  border-bottom: 0.5rem solid var(--red);  
 }
 .sec-info p{
   padding: 1.5rem 0;
@@ -293,7 +297,7 @@ footer ul li:hover, .social-media img:hover{
   }
   .header-link ul li:last-child:hover{
     color: var(--white);
-    background-color: var(--moderate-cyan);
+    background-color: var(--darker-grayish-blue);
     cursor: pointer;
   }
   
@@ -311,9 +315,7 @@ footer ul li:hover, .social-media img:hover{
     text-align: left;
   }
   .sec-info h4{
-    width: 34%;
-    padding: 0 2px;
-    text-align: center;
+    width: 50%;
   }
   .section5{
     flex-direction: column;
