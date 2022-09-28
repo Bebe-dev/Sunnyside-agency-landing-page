@@ -135,7 +135,7 @@ section {
 .sec-info h2, .sec-info button{
   font-family: 'Fraunces', serif;
   font-weight: 900;
-  color: black; 
+  color: var(--darker-blue); 
 }
 .sec-info button{
   margin: auto;
@@ -165,7 +165,7 @@ section {
   flex-shrink: 0;
   width: 100%;
   height: auto;
-  max-height: 550px;
+  max-height: 550px; 
 }
 .lower-sec-info{
   position: absolute;
@@ -221,10 +221,10 @@ section {
   padding: 2rem 0 0.5rem;
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  color: black;
+  color: var(--darker-blue);
 }
 .client-info p{
-  color: var(--grayish-blue);
+  color: var(--dark-grayish-blue);
 }
 .section6 {
   display: flex;
@@ -242,7 +242,7 @@ section {
   height: auto;
 }
 footer {
-  background-color: hsla(168, 34%, 41%, 0.6);
+  background-color: hsla(168, 34%, 41%,0.6);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -330,6 +330,9 @@ footer ul li:hover, .social-media img:hover{
     padding-right: 2rem; 
     text-align: left;
   }
+  .lower-sec img, .upper-sec img{
+    max-height: 2000px;
+  }
   .section5{
     flex-direction: column;
   }
@@ -371,7 +374,16 @@ footer ul li:hover, .social-media img:hover{
   }
   .lower-sec-info, .upper-sec-info {
     bottom: 2rem;
-    padding: 0 4rem;
+    padding: 0 10rem;
+  }
+  .sec-info h2{
+    font-size: 2.75rem;
+  } 
+  p{
+    font-size: 18px;
+  }
+  .lower-sec-info h2, .upper-sec-info h2{
+    font-size: 2rem;
   }
   header .creatives{
     top: 9rem;
