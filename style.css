@@ -186,7 +186,7 @@ section {
   position: absolute;
   bottom: 4rem;
   z-index: 1;
-  color: var(--darker-blue);
+  color: var(--dark-blue);
   text-align: center;
   /* margin: auto; */
   width: 100%;
@@ -242,7 +242,7 @@ section {
   height: auto;
 }
 footer {
-  background-color: hsla(168, 34%, 41%, 0.7);
+  background-color: hsla(168, 34%, 41%, 0.6);
   display: flex;
   flex-direction: column;
   text-align: center;
