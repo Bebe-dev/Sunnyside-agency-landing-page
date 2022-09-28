@@ -374,7 +374,7 @@ footer ul li:hover, .social-media img:hover{
   }
   .lower-sec-info, .upper-sec-info {
     bottom: 2rem;
-    padding: 0 10rem;
+    padding: 0 4rem;
   }
   .sec-info h2{
     font-size: 2.75rem;
@@ -388,5 +388,16 @@ footer ul li:hover, .social-media img:hover{
   header .creatives{
     top: 9rem;
   }
-  
+}
+
+@media (min-width: 1200px) {
+  .lower-sec-info, .upper-sec-info {
+    padding: 0 8rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .lower-sec-info, .upper-sec-info {
+    padding: 0 10rem;
+  }
 }
