@@ -253,7 +253,6 @@ footer > img{
   width: 50%;
   margin: auto;
   color: var(--cyan);
-  filter: sepia(100%) invert(28%);
 }
 footer ul{
   display: flex;
