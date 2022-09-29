@@ -388,6 +388,14 @@ footer ul li:hover, .social-media img:hover{
   header .creatives{
     top: 9rem;
   }
+  .section5{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  footer{
+    padding-top: 6rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
